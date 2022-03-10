@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Form</title>
+        <meta name="description" content="this web page is related to form"/>
+        <meta name="keywords" content="form, username, password, bla bla bla">
+    </head>
+    <body>
+        <form style="background-color: tomato;">
+        <fieldset >
+            <legend style="background-color: teal;">Personal Data</legend>
+            <br>
+            <br>
+            <fieldset style="background-color: #ff9933;">
+                <legend  style="background-color: turquoise;">Your Name</legend>
+                <table>
+                    <thead></thead>
+                    <tbody>
+                        <tr>
+                            <td><label for="firstname">First Name</label></td>
+                            <td>:</td>
+                            <td><input required placeholder="ex.ahmed" minlength="3" maxlength="13" type="text" name="firstname" id="firstname"/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lastname">Last Name</label></td>
+                            <td>:</td>
+                            <td><input required placeholder="ex.Samy" minlength="3" maxlength="13" type="text" name="lastname" id="lastname"/></td>                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <br>
+            <br>
+            <table>
+                <thead></thead>
+                <tbody>
+                    <tr>
+                        <td><label for="phone">Your Phone</label></td>
+                        <td>:</td>
+                        <td><input maxlength="11" required type="number" name="userphone" id="phone"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td>:</td>
+                        <td><input required type="email" name="usermail" id="email"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td>:</td>
+                        <td><input required type="password" name="userpassword" id="password"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password"></label>Re-Password</label></td>
+                        <td>:</td>
+                        <td><input required type="password" name="userpassword" id="password"/></td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+            <br>
+            <br>
+            <p>Gender:</p>
+            <input type="radio" name="gender" id="male" value="male"/>
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" id="female" value="female"/>
+            <label for="male">Female</label>
+            <br>
+            <p>Specialization:</p>
+            <input type="checkbox" name="specialization" id="frontend" value="front-end"/>
+            <label for="frontend">Front-end</label>
+            <br>
+            <input type="checkbox" name="specialization" id="backend" value="back-end"/>
+            <label for="backend">Back-end</label>
+            <br>
+            <label for="uni">University:</label>
+            <br>
+            <select name="university" id="uni">
+                <option value="AUC">AUC</option>
+                <option value="BSU">BSU</option>
+                <option value="MU">MU</option>
+                <option value="NUB">NUB</option>
+            </select>
+            
+        <br>
+        <br>
+        <button type="submit" style="background-color: black;color: white;">Submit</button>
+        </fieldset>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </form>
+    </body>
+</html>
